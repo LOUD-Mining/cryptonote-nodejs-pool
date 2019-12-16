@@ -2306,7 +2306,7 @@ function home_InitTemplate(parentStats, siblingStats) {
     updateText('finderReward', parentStats.config.finderReward + '%');
 
     updateText('paymentsInterval', getReadableTime(parentStats.config.paymentsInterval));
-    updateText('paymentsMinimum', getReadableCoin(parentStats, parentStats.config.minPaymentThreshold));
+    updateText('paymentsMinimum', getReadableCoin(parentStats, parentStats.config.minPaymentThreshold, null, true));
 
     updateText('blockSolvedTime', getReadableTime(parentStats.network.difficulty / parentStats.pool.hashrate));
 
