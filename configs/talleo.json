@@ -11,12 +11,14 @@
 
     "daemonType": "bytecoin",
     "previousOffset": null,
-    "cnAlgorithm": "cryptonight_pico",
+    "cnAlgorithm": "cryptonight-turtle",
     "isRandomX": false,
-    "cnVariant": 0,
+    "cnVariant": 2,
     "cnBlobType": 2,
     "includeHeight": false,
     "includeAlgo": false,
+
+    "hashingUtil": true,
 
     "logging": {
         "files": {
