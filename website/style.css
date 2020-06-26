@@ -1,11 +1,11 @@
 body {
-  background: #242424;
+  background: black;
   padding-left: 200px;
   padding-right: 200px;
 }
 
 .body {
-  background: white;
+  background: 595959;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
@@ -14,14 +14,14 @@ body {
 }
 
 .copyright {
-  color: #C9CACC;
+  color: #1fa71f;
   font-size: 15px;
   text-align: left;
   text-decoration: none;
 }
 
 .footer {
-  background: black;
+  background: #262626;
   padding: 15px;
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 .header {
-  background: black;
-  color: #C9CACC;
+  background: 262626;
+  color: #1fa71f;
   font-size: 25px;
   padding: 15px;
   text-align: center;
