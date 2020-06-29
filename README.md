@@ -1,11 +1,10 @@
-FunWithCrypto Mining Pool
+The LOUD Mining Network Pool
 =========================
-This repository contains the pool software and website for https://funwithcrypto.tk
+This repository contains the pool software and website for https://loudmining.com
 
 Credits
 -------
-* [croniccorey](//github.com/croniccorey) - Maintainer of this repository
-* [muscleman](//github.com/muscleman) - Maintainer of cryptonote-nodejs-pool software
+* [LOUD-Mining](//github.com/LOUD-Mining) - Maintainer of this repository
 * [dvandal](//github.com/dvandal) - Developer of cryptonote-nodejs-pool software
 
 License
