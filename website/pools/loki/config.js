@@ -1,4 +1,4 @@
-var api = "https://loudmining.com:8xxx";
+var api = "https://loudmining.com/loki/api";
 let parentCoin = "loki";
 
 //var email = "";
