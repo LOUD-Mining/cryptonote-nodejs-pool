@@ -1,9 +1,9 @@
-var api = "https://funwithcrypto.tk:8125";
+var api = "https://loudmining.com/trtl/api";
 let parentCoin = "turtlecoin";
 
 //var email = "";
-var telegram = "https://t.me/FunWithCrypto";
-var discord = "https://discord.gg/nRPWrTB";
+//var telegram = "";
+var discord = "https://discord.gg/rvTZV5F";
 //var facebook = "";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
