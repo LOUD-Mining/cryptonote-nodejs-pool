@@ -623,7 +623,7 @@ function getBlockRowElement(block, jsonString, stats){
         '<td class="col3">' + block.height + '</td>' +
         '<td class="col4">' + block.difficulty + '</td>' +
         '<td class="col5">' + formatBlockLink(block.hash, stats) + '</td>' +
-        '<td class="col5" title="Miners Address">' + block.address + '</td>' +
+        '<td class="col5" title="Finder\'s Address">' + block.address + '</td>' +
         '<td class="col6" align="right" title="' + block.shares + ' shares submitted">' + formatLuck(block.difficulty, block.shares, block.solo) + '</td>' +
         '<td class="col7">' + block.maturity + '</td>';
 
