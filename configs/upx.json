@@ -1,21 +1,21 @@
 {
     "poolHost": "loudmining.com",
 
-    "coin": "ryo",
-    "symbol": "Ryo",
-    "coinUnits": 1000000000,
+    "coin": "uplexa",
+    "symbol": "UPX",
+    "coinUnits": 100,
     "coinDecimalPlaces": 4,
-    "coinDifficultyTarget": 240,
-    "blockchainExplorer": "https://explorer.ryo-currency.com/block/{id}",
-    "transactionExplorer": "https://explorer.ryo-currency.com/tx/{id}",
+    "coinDifficultyTarget": 120,
+    "blockchainExplorer": "https://explorer.uplexa.com/block/{id}",
+    "transactionExplorer": "https://explorer.uplexa.com/tx/{id}",
 
     "daemonType": "default",
     "previousOffset": null,
-    "cnAlgorithm": "cryptonight",
-    "isRandomX": false,
-    "cnVariant": 11,
-    "cnBlobType": 4,
-    "includeHeight": false,
+    "cnAlgorithm": "randomx",
+    "isRandomX": true,
+    "cnVariant": 0,
+    "cnBlobType": 1,
+    "includeHeight": true,
     "includeAlgo": false,
 
     "logging": {
@@ -36,8 +36,8 @@
         "enabled": true,
         "mergedMining": false,
         "clusterForks": "auto",
-        "poolAddress": "RYoLshLsVqrRPtaCVeKuyvPDb23f89JvaRq3sVxdZqqi1ymRdba9BrDTMrrJFXEez49mmuFZbbskTVBJabny6FfHV2x4ck5nTCz",
-        "intAddressPrefix": null,
+        "poolAddress": "4BBEAuciJPyW7iiWKG3DovYVDUVWodDsXDZVF7hrVn7gWTBpp1KQmfF7HB7nyz8tMVWqHtCCiAviL44b69EDMa4qCdjR8jc",
+        "intAddressPrefix": 19,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslCert": "cert.pem",
@@ -45,34 +45,34 @@
         "sslCA": "chain.pem",
         "ports": [
             {
-                "port": 3337,
-                "difficulty": 500,
+                "port": 3334,
+                "difficulty": 1000,
                 "desc": "Low end hardware"
             },
             {
-                "port": 4447,
-                "difficulty": 5000,
+                "port": 4444,
+                "difficulty": 10000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 5557,
-                "difficulty": 50000,
+                "port": 5554,
+                "difficulty": 100000,
                 "desc": "High end hardware"
             },
             {
-                "port": 7777,
-                "difficulty": 500000,
+                "port": 7774,
+                "difficulty": 1000000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 8887,
+                "port": 8884,
                 "difficulty": 100,
                 "desc": "Hidden port",
                 "hidden": true
             },
             {
-                "port": 9997,
-                "difficulty": 5000,
+                "port": 9994,
+                "difficulty": 10000,
                 "desc": "SSL connection",
                 "ssl": true
             }
@@ -117,15 +117,15 @@
         "enabled": true,
         "interval": 300,
         "maxAddresses": 50,
-        "mixin": 5,
+        "mixin": 7,
         "priority": 0,
-        "transferFee": 1000,
+        "transferFee": 14000000000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
-        "minPayment": 1000000000,
+        "minPayment": 50000000000,
         "maxPayment": null,
         "maxTransactionAmount": null,
-        "denomination": 10000000
+        "denomination": 100000000000
     },
 
     "blockUnlocker": {
@@ -144,12 +144,12 @@
         "hashrateWindow": 600,
         "updateInterval": 20,
         "bindIp": "0.0.0.0",
-        "port": 8120,
+        "port": 8114,
         "blocks": 30,
         "payments": 30,
         "password": "Password",
         "ssl": true,
-        "sslPort": 8121,
+        "sslPort": 8115,
         "sslCert": "cert.pem",
         "sslKey": "privkey.pem",
         "sslCA": "chain.pem",
@@ -158,12 +158,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 12211
+        "port": 18089
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 19735
+        "port": 18083
     },
 
     "redis": {

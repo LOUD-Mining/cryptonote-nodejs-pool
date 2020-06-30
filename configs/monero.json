@@ -1,5 +1,5 @@
 {
-    "poolHost": "funwithcrypto.tk",
+    "poolHost": "loudmining.com",
 
     "coin": "monero",
     "symbol": "XMR",
@@ -36,8 +36,8 @@
         "enabled": true,
         "mergedMining": false,
         "clusterForks": "auto",
-        "poolAddress": "4BBEAuciJPyW7iiWKG3DovYVDUVWodDsXDZVF7hrVn7gWTBpp1KQmfF7HB7nyz8tMVWqHtCCiAviL44b69EDMa4qCdjR8jc",
-        "intAddressPrefix": 19,
+        "poolAddress": "",
+        "intAddressPrefix": 2000000,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslCert": "cert.pem",
@@ -45,36 +45,24 @@
         "sslCA": "chain.pem",
         "ports": [
             {
-                "port": 3334,
+                "port": 2100,
                 "difficulty": 1000,
                 "desc": "Low end hardware"
             },
             {
-                "port": 4444,
+                "port": 2101,
                 "difficulty": 10000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 5554,
+                "port": 2102,
                 "difficulty": 100000,
                 "desc": "High end hardware"
             },
             {
-                "port": 7774,
+                "port": 2103,
                 "difficulty": 1000000,
                 "desc": "Cloud-mining / NiceHash"
-            },
-            {
-                "port": 8884,
-                "difficulty": 100,
-                "desc": "Hidden port",
-                "hidden": true
-            },
-            {
-                "port": 9994,
-                "difficulty": 10000,
-                "desc": "SSL connection",
-                "ssl": true
             }
         ],
         "varDiff": {
