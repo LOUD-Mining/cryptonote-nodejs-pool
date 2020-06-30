@@ -1,4 +1,4 @@
-The LOUD Mining Network Pool
+The LOUD Mining Network of Pools
 =========================
 This repository contains the pool software and website for https://loudmining.com
 
