@@ -11,8 +11,8 @@
 
     "daemonType": "default",
     "previousOffset": null,
-    "cnAlgorithm": "randomx",
-    "isRandomX": true,
+    "cnAlgorithm": "cryptonight_upx",
+    "isRandomX": false,
     "cnVariant": 0,
     "cnBlobType": 1,
     "includeHeight": true,
