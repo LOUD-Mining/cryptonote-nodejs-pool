@@ -1,9 +1,9 @@
 {
     "name": "cryptonote-nodejs-pool",
-    "version": "1.4.0",
+    "version": "2.0.0",
     "license": "GPL-2.0",
     "Original author": "Daniel Vandal",
-    "Maintained by": "Musclesonvacation",
+    "Maintained by": "LOUD-Mining",
     "repository": {
         "type": "git",
         "url": "https://github.com/muscleman/cryptonote-nodejs-pool.git"
@@ -16,7 +16,7 @@
         "cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
         "cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
         "dateformat": "*",
-        "mailgun.js": "*",
+        "mailgun.js": "git://github.com/LOUD-Mining/mailgun-js.git",
         "node-telegram-bot-api": "*",
         "nodemailer": "2.7.2",
         "nodemailer-sendmail-transport": "*",
